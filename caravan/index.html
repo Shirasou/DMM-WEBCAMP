@@ -2,17 +2,24 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8"/>
+    <!-- mate要素はページの情報を定義する要素 -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
     <script src="https://kit.fontawesome.com/0f0ee64ee5.js" crossorigin="anonymous"></script>
-
+    <!-- 属性：src=挿入画像の名前と場所（URL）を指定する属性 -->
+    <!-- alt:何かのトラブルで画像が表示されないときに、代わりに表示されるテキストを指定する属性 -->
     <link rel="stylesheet" href="style.css"/>
+    <!-- link要素はブラウザや検索エンジンにファイル同士の関係性を知らせるときに用いる要素 -->
+    <!-- href（エイチレフ）:リンク先のURLを参照させる属性 -->
+    <!-- rel:現在のファイルとリンク先ファイルとの関係性を指定する属性 -->
     <title>CARAVAN</title>
   </head>
 
   <body>
   <header>
     <h1 class="heading">
+      <!-- class:cssで定義したクラス名を値に書くことで、スタイルシートの適用を指定 -->
+      <!-- id:classと同じだが、属性値は重複してはいけない。 ※１つしかない要素であることを明示するときに使用すること -->
       <a href="index.html">
       CARAVAN
       </a>
@@ -54,7 +61,7 @@
       <section class="blog">
         <h2 class="blog-heading">Recent Blogs</h2>
         <div class="blog-box">
-          
+
           <div class="blog-item">
             <img class="blog-image" src="img/forest.jpg"/>
             <section class="blog-text">
